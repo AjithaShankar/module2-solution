@@ -9,6 +9,15 @@ h1 {
 *{
 	box-sizing: border-box;
 }
+.Hint {
+background-color: white;
+width: 50px;
+height: 50px;
+border: 1px solid black;
+position: relative;
+bottom: 75px;
+left: 125px;
+}
 /*Large devices only*/
 @media (min-width: 1200px){
 	.HTML, .CSS, .JS,
@@ -27,7 +36,7 @@ h1 {
     width: 33.33%;
     color: blue;
     padding: 10px 30px 10px 30px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 10px;
 }
 .JS {
@@ -36,7 +45,7 @@ h1 {
     width: 33.33%;
     color: green;
      padding: 10px 30px 10px 30px;
-    /*margin-right: 20px;*/
+    margin-right: 10px;
     margin-left: 10px;
 }
 
@@ -70,19 +79,19 @@ h1 {
 <div class="row">
   <div class="HTML">
   <h2> HTML </h2>
-  	<div>
+  	<div class = "Hint"> Hint
   	</div>
   <p> HTML stands for HyperText Markup Language </p>
   </div>
   <div class="CSS">
   <h2> CSS </h2>
-  	<div>
+  <div class = "Hint"> Hint
   	</div>
   <p> CSS stands for Cascading Style Sheets
   </div>
   <div class="JS">
   <h2> JS </h2>
-  	<div>
+  	<div class = "Hint"> Hint
   	</div>
   <p> JS stands for Java Script
   </div>
