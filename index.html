@@ -3,6 +3,13 @@
 <head>
 	<title>Module 2 Assignment Solution</title>
 <style>
+h1 {
+	text-align: center; 
+}
+/*Large devices only*/
+@media (min-width: 1200px){
+	.HTML, .CSS, .JS,
+    }
 .HTML {
 	background-color: coral;
     float: left;
@@ -21,18 +28,30 @@
     width: 33.33%;
     color: green;
 }
-@media (max-width: 992px) {
-    .HTML {
-        width: 100%;
-    }
-   .CSS {
-        width: 100%;
-    }
-   .JS {
-        width: 100%;
-    }
 
+/*Medium devices only*/
+@media (min-width: 950px) and (max-width: 1199px){
+	.HTML, .CSS, .JS
+    }
+.HTML {
+	background-color: coral;
+    float: left;
+    width: 33.33%;
+    color: red;
 }
+.CSS {
+	background-color: maroon;
+/*    float: left;*/
+    width: 33.33%;
+    color: blue;
+}
+.JS {
+	background-color: yellow;
+    /*float: left;*/
+    width: 33.33%;
+    color: green;
+}
+
 </style>
 </head>
 <body>
@@ -40,14 +59,20 @@
 <div class="row">
   <div class="HTML">
   <h2> HTML </h2>
+  	<div>
+  	</div>
   <p> HTML stands for HyperText Markup Language </p>
   </div>
   <div class="CSS">
   <h2> CSS </h2>
+  	<div>
+  	</div>
   <p> CSS stands for Cascading Style Sheets
   </div>
   <div class="JS">
   <h2> JS </h2>
+  	<div>
+  	</div>
   <p> JS stands for Java Script
   </div>
 </div>
