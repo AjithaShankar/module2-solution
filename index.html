@@ -18,60 +18,42 @@ position: relative;
 bottom: 75px;
 left: 125px;
 }
-/*Large devices only*/
-@media (min-width: 1200px){
-	.HTML, .CSS, .JS,
-    }
 .HTML {
-	background-color: coral;
+    background-color: coral;
     float: left;
     width: 33.33%;
     color: red;
-    padding: 10px 30px 10px 30px;
-    margin-left: 10px;
 }
 .CSS {
-	background-color: maroon;
-    float: left;
-    width: 23.33%;
+    background-color: maroon;
+   float: left;
+    width: 33.33%;
     color: blue;
-    padding: 10px 30px 10px 30px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 .JS {
-	background-color: yellow;
+    background-color: yellow;
     float: left;
-    width: 23.33%;
+    width: 33.33%;
     color: green;
-     padding: 10px 30px 10px 30px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
+
+/*Large devices only*/
+@media (min-width: 992px){
+
+    }
 
 /*Medium devices only*/
-@media (min-width: 950px) and (max-width: 1199px){
-	.HTML, .CSS, .JS
+@media (min-width: 768px) and (max-width: 991px){
+	#HTML{width:45.5%; }
+#CSS{width:45%;}
+#JS{width:94.5%;} 
     }
-.HTML {
-	background-color: coral;
-    float: left;
-    width: 33.33%;
-    color: red;
+ /*Small devices only*/   
+@media screen and (min-width : 0px) and (max-width : 767px){
+#HTML{width:95%;height: 80px;margin-left: 15px; }
+#CSS{width:95%;height: 80px;}
+#JS{width:95%; height: 80px;margin-left: 15px;} 
 }
-.CSS {
-	background-color: maroon;
-/*    float: left;*/
-    width: 33.33%;
-    color: blue;
-}
-.JS {
-	background-color: yellow;
-    /*float: left;*/
-    width: 33.33%;
-    color: green;
-}
-
 </style>
 </head>
 <body>
