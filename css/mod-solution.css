@@ -1,0 +1,63 @@
+h1 {
+	text-align: center; 
+}
+*{
+	box-sizing: border-box;
+}
+.Hint {
+border: 1px solid black;
+float: right;
+   padding-right:5px;
+   margin-right: 5px;
+   align: right;
+   width:120px;
+   color:white;
+}
+.HTML {
+    background-color: coral;
+    float: left;
+    width: 30%;
+    color: red;
+     height: 180px;
+     margin-top: 35px;
+     margin-right: 20px;
+  margin-left: 21px;
+}
+.CSS {
+    background-color: maroon;
+   float: left;
+    width: 25%;
+    color: blue;
+     height: 180px;
+      margin-top: 35px;
+     margin-right: 10px;
+  margin-left: 15px;
+}
+.JS {
+    background-color: yellow;
+    float: left;
+    width: 25.33%;
+    color: green;
+     height: 180px;
+      margin-top: 35px;
+     margin-right: 0px;
+  margin-left: 10px;
+}
+
+/*Large devices only*/
+@media screen and (min-width: 992px){
+
+    }
+
+/*Medium devices only*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#HTML{width:45.5%; }
+#CSS{width:45%;}
+#JS{width:94.5%;} 
+    }
+ /*Small devices only*/   
+@media screen and (min-width : 0px) and (max-width : 767px){
+#HTML{width:95%;height: 80px;margin-left: 15px; }
+#CSS{width:95%;height: 80px;}
+#JS{width:95%; height: 80px;margin-left: 15px;} 
+}
